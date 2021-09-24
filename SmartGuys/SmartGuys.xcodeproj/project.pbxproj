@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8313F2A226FD81DA000C24A6 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8313F2A126FD81DA000C24A6 /* UIColor+Extension.swift */; };
+		8313F2A926FDB22A000C24A6 /* SGModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8313F2A826FDB22A000C24A6 /* SGModel.swift */; };
 		83B59BE926EF445A00B9720A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B59BE826EF445A00B9720A /* AppDelegate.swift */; };
 		83B59BEB26EF445A00B9720A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B59BEA26EF445A00B9720A /* SceneDelegate.swift */; };
 		83B59BED26EF445A00B9720A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B59BEC26EF445A00B9720A /* ViewController.swift */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8313F2A126FD81DA000C24A6 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		8313F2A826FDB22A000C24A6 /* SGModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGModel.swift; sourceTree = "<group>"; };
 		83B59BE526EF445A00B9720A /* SmartGuys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartGuys.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83B59BE826EF445A00B9720A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83B59BEA26EF445A00B9720A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,6 +39,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8313F2A026FD81B6000C24A6 /* Mimoku */ = {
+			isa = PBXGroup;
+			children = (
+				8313F2A126FD81DA000C24A6 /* UIColor+Extension.swift */,
+			);
+			path = Mimoku;
+			sourceTree = "<group>";
+		};
+		8313F2A526FDAD8B000C24A6 /* SmartGuys */ = {
+			isa = PBXGroup;
+			children = (
+				8313F2A726FDADEC000C24A6 /* Models */,
+				8313F2A626FDADDA000C24A6 /* ViewControllers */,
+			);
+			path = SmartGuys;
+			sourceTree = "<group>";
+		};
+		8313F2A626FDADDA000C24A6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8313F2A726FDADEC000C24A6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8313F2A826FDB22A000C24A6 /* SGModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		834AC82B26FC70D900A1673C /* SupportFiles */ = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +103,8 @@
 				83B59BF626EF445C00B9720A /* Info.plist */,
 				83B59BF126EF445C00B9720A /* Assets.xcassets */,
 				83B59BEC26EF445A00B9720A /* ViewController.swift */,
+				8313F2A526FDAD8B000C24A6 /* SmartGuys */,
+				8313F2A026FD81B6000C24A6 /* Mimoku */,
 				834AC82B26FC70D900A1673C /* SupportFiles */,
 			);
 			path = SmartGuys;
@@ -98,6 +136,7 @@
 		83B59BDD26EF445A00B9720A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SG;
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
@@ -144,6 +183,8 @@
 				83B59BED26EF445A00B9720A /* ViewController.swift in Sources */,
 				83B59BE926EF445A00B9720A /* AppDelegate.swift in Sources */,
 				83B59BEB26EF445A00B9720A /* SceneDelegate.swift in Sources */,
+				8313F2A926FDB22A000C24A6 /* SGModel.swift in Sources */,
+				8313F2A226FD81DA000C24A6 /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -13,6 +13,23 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         view.backgroundColor = .white
+        
+        let v = UIView()
+        v.backgroundColor = .randomLSColor()
+        v.frame = CGRect(x: 100, y: 100, width: 200, height: 200)
+        view.addSubview(v)
+        
+        v.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(tap(g:))))
+        
+        let model = SGBoardModel(size: (3, 4))
+        print(model)
+    }
+    
+    @objc func tap(g: UITapGestureRecognizer) {
+        guard let v = g.view else { return }
+        UIView.transition(with: v, duration: 1, options: .transitionFlipFromRight, animations: {
+            v.backgroundColor = .randomLSColor()
+        }, completion: nil)
     }
 
 }
