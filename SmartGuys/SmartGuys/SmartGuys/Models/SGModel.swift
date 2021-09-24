@@ -46,8 +46,7 @@ struct SGBoardModel {
 struct SGBoardConfig {
     var boardSize: (width: Int, height: Int)
     var trapCount: Int
-    var swapCount: Int
-    var pinCount: Int
+    var jokerCount: Int
 }
 
 struct SGCardModel {
@@ -65,8 +64,7 @@ extension SGCardModel {
     enum CardType {
         case Normal
         case Trap
-        case Swapable
-        case Pinned
+        case Joker
     }
     
 }
