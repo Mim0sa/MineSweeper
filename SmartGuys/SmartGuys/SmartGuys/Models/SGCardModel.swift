@@ -20,9 +20,9 @@ extension SGCardModel {
         case Hidden(type: CardType)
     }
     
-    enum CardType {
-        case Normal
-        case Trap
-        case Joker
+    enum CardType: String {
+        case Normal = "Normal"
+        case Trap   = "Trap  "
+        case Joker  = "Joker "
     }
 }

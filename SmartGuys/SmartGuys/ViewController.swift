@@ -21,8 +21,8 @@ class ViewController: UIViewController {
         
         v.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(tap(g:))))
         
-        let model = SGBoardModel(config: SGComplexityLevel.Easy.getConfig())
-        print(model.cardModels)
+        let model = SGBoardModel(config: SGComplexityLevel.Hard.getConfig())
+        print(model)
     }
     
     @objc func tap(g: UITapGestureRecognizer) {
