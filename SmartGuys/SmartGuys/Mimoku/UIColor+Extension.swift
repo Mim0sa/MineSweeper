@@ -1,6 +1,5 @@
 //
 //  UIColor+Extension.swift
-//  Mimoku_Example
 //
 //  Created by Mimosa on 2020/12/29.
 //

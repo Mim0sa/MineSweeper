@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		830D7544270FEB310070E00E /* SGCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830D7543270FEB310070E00E /* SGCardModel.swift */; };
 		8313F2A226FD81DA000C24A6 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8313F2A126FD81DA000C24A6 /* UIColor+Extension.swift */; };
-		8313F2A926FDB22A000C24A6 /* SGModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8313F2A826FDB22A000C24A6 /* SGModel.swift */; };
+		8313F2A926FDB22A000C24A6 /* SGBoardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8313F2A826FDB22A000C24A6 /* SGBoardModel.swift */; };
 		83B59BE926EF445A00B9720A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B59BE826EF445A00B9720A /* AppDelegate.swift */; };
 		83B59BEB26EF445A00B9720A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B59BEA26EF445A00B9720A /* SceneDelegate.swift */; };
 		83B59BED26EF445A00B9720A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B59BEC26EF445A00B9720A /* ViewController.swift */; };
@@ -17,8 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		830D7543270FEB310070E00E /* SGCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGCardModel.swift; sourceTree = "<group>"; };
 		8313F2A126FD81DA000C24A6 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
-		8313F2A826FDB22A000C24A6 /* SGModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGModel.swift; sourceTree = "<group>"; };
+		8313F2A826FDB22A000C24A6 /* SGBoardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGBoardModel.swift; sourceTree = "<group>"; };
 		83B59BE526EF445A00B9720A /* SmartGuys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartGuys.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83B59BE826EF445A00B9720A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83B59BEA26EF445A00B9720A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,7 +68,8 @@
 		8313F2A726FDADEC000C24A6 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				8313F2A826FDB22A000C24A6 /* SGModel.swift */,
+				8313F2A826FDB22A000C24A6 /* SGBoardModel.swift */,
+				830D7543270FEB310070E00E /* SGCardModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -183,7 +186,8 @@
 				83B59BED26EF445A00B9720A /* ViewController.swift in Sources */,
 				83B59BE926EF445A00B9720A /* AppDelegate.swift in Sources */,
 				83B59BEB26EF445A00B9720A /* SceneDelegate.swift in Sources */,
-				8313F2A926FDB22A000C24A6 /* SGModel.swift in Sources */,
+				830D7544270FEB310070E00E /* SGCardModel.swift in Sources */,
+				8313F2A926FDB22A000C24A6 /* SGBoardModel.swift in Sources */,
 				8313F2A226FD81DA000C24A6 /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
