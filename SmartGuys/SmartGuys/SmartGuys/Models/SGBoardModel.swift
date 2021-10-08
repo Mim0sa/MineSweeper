@@ -59,6 +59,23 @@ struct SGBoardModel {
         }
     }
     
+    mutating func swapCards(index1: (Int, Int), index2: (Int, Int)) {
+        let model = cardModels[index1.0][index1.1]
+        cardModels[index1.0][index1.1] = cardModels[index2.0][index2.1]
+        cardModels[index2.0][index2.1] = model
+    }
+    
+    mutating func flipCards(index: (Int, Int)) {
+//        switch cardModels[index.0][index.1].status {
+//        case .Covered(type: let type):
+//            <#code#>
+//        case .Opened(type: let type):
+//            <#code#>
+//        case .Hidden(type: let type):
+//            <#code#>
+//        }
+    }
+    
     func getRandomIndexs(count: Int = 1) -> [(Int, Int)] {
         var indexs: [(Int, Int)] = []
         
